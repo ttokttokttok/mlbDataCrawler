@@ -1,0 +1,23 @@
+{
+  "name": "baseballstatscrawl",
+  "version": "1.0.0",
+  "description": "This is the web crawler for gathering mlb data on youtube.",
+  "main": "main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node --no-warnings main.js",
+    "test": "jest"
+  },
+  "author": "Joshua Chung",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "jsdom": "^24.0.0",
+    "puppeteer": "^21.11.0"
+  }
+}
