@@ -8,7 +8,6 @@ async function crawlPage(url) {
   try {
     nextURLs = await getAnchorsFromHTML(url);
     data = await getMLBData(nextURLs);
-    console.log(data);
     return data;
   } catch (err) {
     console.log(`error in fetch: ${err.message}, on page ${url}`);
